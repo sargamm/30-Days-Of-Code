@@ -1,9 +1,9 @@
 #!/bin/python
-
+#!compatible with python3
 import sys
 
 
-n = int(raw_input().strip())
+n = int(input().strip())
 
 # if 'n' is NOT evenly divisible by 2 (i.e.: n is odd)
 if (n%2==1):
@@ -18,4 +18,4 @@ elif(n>=6):
 else:
     ans = "Not Weird"
 
-print ans
+print(ans)
