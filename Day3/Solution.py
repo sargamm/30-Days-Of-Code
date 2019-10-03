@@ -1,5 +1,5 @@
 #!/bin/python
-#!compatible with python3
+# compatible with python3
 import sys
 
 
